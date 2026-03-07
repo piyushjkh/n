@@ -129,7 +129,7 @@ export default function Home() {
                     <div className="bg-primary/10 p-2 rounded-full text-primary shrink-0">
                       <item.icon className="w-5 h-5" />
                     </div>
-                    <span className="font-semibold text-card-foreground">{item.text}</span>
+                    <span className="font-semibold text-[#000000]">{item.text}</span>
                   </CardContent>
                 </Card>
               ))}
