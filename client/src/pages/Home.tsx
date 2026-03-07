@@ -69,7 +69,7 @@ export default function Home() {
       </div>
       <main className="pb-24">
         {/* Hero Section */}
-        <section className="pt-12 pb-16 px-4 max-w-4xl mx-auto text-center relative">
+        <section className="px-4 max-w-4xl mx-auto text-center relative pl-[12px] pr-[12px] pt-[10px] pb-[10px]">
           <div className="absolute inset-0 bg-grid-pattern opacity-[0.03] pointer-events-none -z-10" />
           
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight tracking-tight text-foreground" data-testid="hero-headline">
