@@ -349,7 +349,7 @@ export default function Home() {
                     Price Increasing Soon!
                   </div>
                   <div className="flex items-center justify-center gap-3 text-lg md:text-xl font-bold">
-                    <span className="line-through opacity-60">₹3999</span>
+                    <span className="line-through opacity-60">₹399</span>
                     <span className="text-yellow-200 font-black">ONLY</span>
                     <span className="text-3xl font-black text-yellow-100">₹199</span>
                   </div>
