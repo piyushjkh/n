@@ -9,6 +9,7 @@ import photo1 from "@assets/photo_2026-02-10_12-24-16_1772873440324.jpg";
 import photo2 from "@assets/photo_2026-02-10_11-16-49_1772873440329.avif";
 import photo3 from "@assets/photo_2026-02-10_11-16-27_1772873440330.avif";
 import photo4 from "@assets/photo_2026-02-10_11-16-08-768x1526_1772873440331.avif";
+import quickOverviewVideo from "@assets/Quick-overview_1772873650691.mp4";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
@@ -133,6 +134,21 @@ export default function Home() {
                 </Card>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Course Quick Overview Section */}
+        <section className="py-16 px-4 bg-gradient-to-b from-muted/30 to-background max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-black mb-4">Course Quick Overview</h2>
+          <p className="text-xl text-muted-foreground mb-12">Watch a sneak peek of what you'll learn</p>
+          
+          <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-2xl mx-auto">
+            <video 
+              src={quickOverviewVideo} 
+              className="w-full object-cover aspect-video" 
+              controls
+              data-testid="video-quick-overview"
+            />
           </div>
         </section>
 
@@ -273,7 +289,7 @@ export default function Home() {
       </main>
       {/* Floating WhatsApp Button */}
       <a 
-        href="https://api.whatsapp.com/send?phone=918927855465" 
+        href="https://api.whatsapp.com/send?phone=918950370314" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50 flex items-center justify-center"
