@@ -98,7 +98,7 @@ export default function Home() {
             </Button>
           </a>
           
-          <p className="mt-4 text-sm text-muted-foreground font-medium flex items-center justify-center gap-2">
+          <p className="mt-4 font-medium flex items-center justify-center gap-2 text-[18px] text-[#000000]">
             <Clock className="w-4 h-4" /> Limited time offer. Price increases soon!
           </p>
         </section>
