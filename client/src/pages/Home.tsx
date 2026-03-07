@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-primary/20">
       {/* Top Banner */}
-      <div className="bg-primary text-primary-foreground py-3 text-center px-4 font-semibold text-sm sm:text-base sticky top-0 z-50 shadow-md">
+      <div className="text-primary-foreground py-3 text-center px-4 font-semibold sm:text-base sticky top-0 z-50 shadow-md text-[18px] bg-[#fa486a]">
         <span className="animate-pulse inline-block mr-2">🎉</span>
         Launch Offer – 95% OFF this Week! 🚀 
         <a href={checkoutUrl} className="underline ml-2 font-bold hover:text-white/80 transition-colors">
