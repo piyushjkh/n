@@ -269,7 +269,7 @@ export default function Home() {
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 px-4 text-center max-w-3xl mx-auto pt-[20px] pb-[20px]">
+        <section className="py-20 px-4 text-center max-w-3xl mx-auto pt-[40px] pb-[40px]">
           <h2 className="text-3xl md:text-4xl font-black mb-8 flex items-center justify-center gap-3">
             <span className="text-4xl">⌚</span> TIME IS RUNNING OUT
           </h2>
