@@ -215,7 +215,7 @@ export default function Home() {
         {/* What Will You Learn */}
         <section className="py-16 px-4 max-w-4xl mx-auto pt-[10px] pb-[10px] pl-[8px] pr-[8px] ml-[0px] mr-[0px] mt-[6px] mb-[6px]">
           <div className="text-center mb-12">
-            <h2 className="md:text-4xl font-black flex items-center justify-center gap-3 text-[30px]">
+            <h2 className="md:text-4xl font-black flex items-center justify-center gap-3 text-[40px]">
               <span className="text-4xl">📚</span> WHAT WILL YOU LEARN?
             </h2>
           </div>
