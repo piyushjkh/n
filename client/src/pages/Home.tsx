@@ -145,7 +145,7 @@ export default function Home() {
           <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-2xl mx-auto">
             <video 
               src={quickOverviewVideo} 
-              className="w-full object-cover aspect-video" 
+              className="w-full object-cover aspect-video pl-[1px] pr-[1px] pt-[0px] pb-[0px] ml-[0px] mr-[0px] mt-[0px] mb-[0px] bg-[#ff000000]" 
               controls
               data-testid="video-quick-overview"
             />
