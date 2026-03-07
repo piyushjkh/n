@@ -321,12 +321,11 @@ export default function Home() {
           </div>
         </section>
       </main>
-
       {/* Sticky Footer with Enrollment Button - pb-20 ensures content doesn't hide under it */}
       <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t-2 border-gray-200 shadow-2xl z-40">
         <div className="max-w-6xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="text-center sm:text-left">
-            <p className="text-sm sm:text-base font-semibold text-gray-800">Limited Time Offer – Grab Before Price Increases!</p>
+            <p className="text-sm sm:text-base font-semibold text-gray-800">Limited </p>
           </div>
           <a href={checkoutUrl} className="w-full sm:w-auto">
             <Button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-black text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 uppercase tracking-wide" data-testid="button-sticky-enroll">
