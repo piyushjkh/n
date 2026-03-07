@@ -239,7 +239,7 @@ export default function Home() {
         </section>
 
         {/* Bonuses Section */}
-        <section className="py-16 px-4 bg-muted/30 border-t border-border/50">
+        <section className="py-16 px-4 bg-muted/30 border-t border-border/50 pt-[20px] pb-[20px] pl-[16px] pr-[16px] ml-[0px] mr-[0px] mt-[0px] mb-[0px]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <div className="inline-flex items-center justify-center gap-2 bg-primary/10 text-primary px-4 py-1.5 rounded-full font-bold mb-4 text-sm uppercase tracking-wider">
