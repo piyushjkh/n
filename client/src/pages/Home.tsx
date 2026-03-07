@@ -93,7 +93,7 @@ export default function Home() {
             <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02] border border-primary-foreground/10" data-testid="button-enroll-hero">
               <div className="flex flex-col items-center">
                 <span className="font-black uppercase tracking-wide text-xl">Enroll Now at Just ₹199/-</span>
-                <span className="text-xs font-medium opacity-90">Tomorrow Price ₹399/- with Bonuses</span>
+                <span className="font-medium opacity-90 text-[14px]">Tomorrow Price ₹399/- with Bonuses</span>
               </div>
             </Button>
           </a>
