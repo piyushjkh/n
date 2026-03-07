@@ -63,7 +63,6 @@ export default function Home() {
           Enroll Now For ₹199/-
         </a>
       </div>
-
       <main className="pb-24">
         {/* Hero Section */}
         <section className="pt-12 pb-16 px-4 max-w-4xl mx-auto text-center relative">
@@ -101,7 +100,7 @@ export default function Home() {
         </section>
 
         {/* Benefits Section */}
-        <section className="py-16 bg-muted/50 px-4 border-y border-border/50 relative overflow-hidden">
+        <section className="py-16 bg-muted/50 px-4 border-y border-border/50 relative overflow-hidden pl-[1px] pr-[1px]">
           <div className="max-w-4xl mx-auto relative z-10">
             <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-black inline-flex items-center justify-center gap-3">
@@ -246,7 +245,6 @@ export default function Home() {
           </a>
         </section>
       </main>
-
       {/* Floating WhatsApp Button */}
       <a 
         href="https://api.whatsapp.com/send?phone=918927855465" 
