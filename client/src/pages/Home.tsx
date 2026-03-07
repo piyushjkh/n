@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Clock, Gift, Smartphone, Star, TrendingUp, Video, Zap } from "lucide-react";
 
 import videoProof from "@assets/InShot_20260220_125800534_1772851577346.mp4";
-import heroImage from "@/assets/images/ai-influencer-hero.png";
+import heroImage from "@assets/2.5M-1536x864_1772851808594.png";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
