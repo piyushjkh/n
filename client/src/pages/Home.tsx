@@ -138,7 +138,7 @@ export default function Home() {
         </section>
 
         {/* Course Quick Overview Section */}
-        <section className="py-16 px-4 bg-gradient-to-b from-muted/30 to-background max-w-5xl mx-auto text-center">
+        <section className="py-16 px-4 bg-gradient-to-b from-muted/30 to-background max-w-5xl mx-auto text-center pt-[20px] pb-[20px]">
           <h2 className="text-3xl md:text-4xl font-black mb-4">Course Quick Overview</h2>
           <p className="text-xl text-muted-foreground mb-12">Watch a sneak peek of what you'll learn</p>
           
