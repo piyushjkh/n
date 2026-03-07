@@ -154,7 +154,7 @@ export default function Home() {
 
         {/* Social Proof Section */}
         <section className="py-16 px-4 max-w-6xl mx-auto text-center pt-[20px] pb-[20px]">
-          <h2 className="md:text-4xl font-black mt-[0px] mb-[0px] ml-[0px] mr-[0px] pl-[1px] pr-[1px] pt-[0px] pb-[0px] text-[28px]">Popular AI Influencer Pages</h2>
+          <h2 className="md:text-4xl font-black mt-[0px] mb-[0px] ml-[0px] mr-[0px] pl-[1px] pr-[1px] pt-[0px] pb-[0px] text-[30px]">Popular AI Influencer Pages</h2>
           <p className="mb-12 text-[#261818] text-[18px]">Making Lakhs Every Month💰</p>
           
           <div className="flex justify-center gap-4 overflow-x-auto pb-4">
