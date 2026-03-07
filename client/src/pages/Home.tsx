@@ -161,35 +161,35 @@ export default function Home() {
           <p className="mb-12 text-[#261818] text-[18px]">Making Lakhs Every Month💰</p>
           
           <div className="grid grid-cols-2 gap-6">
-            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white">
               <img 
                 src={photo1} 
                 alt="AI Influencer 1" 
-                className="w-full h-auto object-cover aspect-[3/4]"
+                className="w-full h-full object-contain"
                 data-testid="photo-influencer-1"
               />
             </div>
-            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white">
               <img 
                 src={photo2} 
                 alt="AI Influencer 2" 
-                className="w-full h-auto object-cover aspect-[3/4]"
+                className="w-full h-full object-contain"
                 data-testid="photo-influencer-2"
               />
             </div>
-            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white">
               <img 
                 src={photo3} 
                 alt="AI Influencer 3" 
-                className="w-full h-auto object-cover aspect-[3/4]"
+                className="w-full h-full object-contain"
                 data-testid="photo-influencer-3"
               />
             </div>
-            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white">
               <img 
                 src={photo4} 
                 alt="AI Influencer 4" 
-                className="w-full h-auto object-cover aspect-[3/4]"
+                className="w-full h-full object-contain"
                 data-testid="photo-influencer-4"
               />
             </div>
