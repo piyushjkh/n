@@ -104,7 +104,7 @@ export default function Home() {
         </section>
 
         {/* Benefits Section */}
-        <section className="py-16 bg-muted/50 px-4 border-y border-border/50 relative overflow-hidden pl-[1px] pr-[1px]">
+        <section className="py-16 bg-muted/50 px-4 border-y border-border/50 relative overflow-hidden pt-[15px] pb-[15px] pl-[1px] pr-[1px]">
           <div className="max-w-4xl mx-auto relative z-10">
             <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-black inline-flex items-center justify-center gap-3">
