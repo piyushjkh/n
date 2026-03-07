@@ -343,7 +343,7 @@ export default function Home() {
             <CountdownTimer />
             
             <a href={checkoutUrl} className="block w-full max-w-sm mx-auto mt-10 group">
-              <button className="w-full bg-gradient-to-r from-primary via-primary to-secondary text-white rounded-2xl p-8 shadow-2xl shadow-primary/40 hover:shadow-primary/60 transition-all transform hover:scale-[1.03] active:scale-[0.98] border border-primary/50 hover:border-primary group-hover:animate-pulse" data-testid="button-final-cta">
+              <button className="w-full bg-gradient-to-r from-primary via-primary to-secondary text-white rounded-2xl p-8 shadow-2xl shadow-primary/40 hover:shadow-primary/60 transition-all transform hover:scale-[1.03] active:scale-[0.98] border border-primary/50 hover:border-primary group-hover:animate-pulse pt-[0px] pb-[0px] pl-[0px] pr-[0px]" data-testid="button-final-cta">
                 <div className="space-y-2">
                   <div className="text-2xl md:text-3xl font-black uppercase tracking-wider">
                     Price Increasing Soon!
