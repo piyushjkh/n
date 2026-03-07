@@ -10,6 +10,9 @@ import photo2 from "@assets/photo_2026-02-10_11-16-49_1772873440329.avif";
 import photo3 from "@assets/photo_2026-02-10_11-16-27_1772873440330.avif";
 import photo4 from "@assets/photo_2026-02-10_11-16-08-768x1526_1772873440331.avif";
 import quickOverviewVideo from "@assets/Quick-overview_1772873650691.mp4";
+import reviewImage1 from "@assets/photo_2026-02-10_13-08-01_1772889663305.jpg";
+import reviewImage2 from "@assets/photo_2026-02-10_13-00-35_1772889663308.jpg";
+import reviewImage3 from "@assets/Use_the_uploaded_2k_202602101337-scaled_1772889663308.jpeg";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
@@ -286,7 +289,74 @@ export default function Home() {
             </Button>
           </a>
         </section>
+
+        {/* Happy Students Review Section */}
+        <section className="py-16 px-4 max-w-5xl mx-auto pt-[40px] pb-[40px]">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-black mb-4 flex items-center justify-center gap-3">
+              <span className="text-4xl">😊</span> Happy Students
+            </h2>
+            <p className="text-xl text-muted-foreground font-medium">Real Stories From Our Students</p>
+          </div>
+
+          <div className="space-y-8 max-w-3xl mx-auto">
+            {/* Review 1 - Image */}
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white hover:shadow-3xl transition-shadow">
+              <img 
+                src={reviewImage1} 
+                alt="Student Review 1" 
+                className="w-full object-cover aspect-auto"
+                data-testid="review-image-1"
+              />
+            </div>
+
+            {/* Review 2 - Image */}
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white hover:shadow-3xl transition-shadow">
+              <img 
+                src={reviewImage2} 
+                alt="Student Review 2" 
+                className="w-full object-cover aspect-auto"
+                data-testid="review-image-2"
+              />
+            </div>
+
+            {/* Review 3 - Image */}
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white hover:shadow-3xl transition-shadow">
+              <img 
+                src={reviewImage3} 
+                alt="Student Review 3" 
+                className="w-full object-cover aspect-auto"
+                data-testid="review-image-3"
+              />
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a href={checkoutUrl} className="block w-full max-w-md mx-auto group">
+              <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02]" data-testid="button-reviews-cta">
+                <span className="font-black uppercase tracking-wide text-xl">Join These Students Now</span>
+              </Button>
+            </a>
+          </div>
+        </section>
       </main>
+
+      {/* Sticky Footer with Enrollment Button - pb-20 ensures content doesn't hide under it */}
+      <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t-2 border-gray-200 shadow-2xl z-40">
+        <div className="max-w-6xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="text-center sm:text-left">
+            <p className="text-sm sm:text-base font-semibold text-gray-800">Limited Time Offer – Grab Before Price Increases!</p>
+          </div>
+          <a href={checkoutUrl} className="w-full sm:w-auto">
+            <Button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-black text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 uppercase tracking-wide" data-testid="button-sticky-enroll">
+              <div className="flex items-center gap-2">
+                <span className="line-through opacity-70 text-sm">₹399</span>
+                <span>Enroll Now ₹199/-</span>
+              </div>
+            </Button>
+          </a>
+        </div>
+      </div>
       {/* Floating WhatsApp Button */}
       <a 
         href="https://api.whatsapp.com/send?phone=918950370314" 
