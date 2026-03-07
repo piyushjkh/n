@@ -230,7 +230,7 @@ export default function Home() {
               "Using AI tools to generate content quickly",
               "How to convert an image into a video like viral videos on Instagram"
             ].map((text, i) => (
-              <div key={i} className="flex items-start gap-4 p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border pt-[6px] pb-[6px] mt-[8px] mb-[8px] pl-[1px] pr-[1px] bg-[#000000] text-[#f5f2f2]">
+              <div key={i} className="flex items-start gap-4 p-4 rounded-xl hover:bg-muted/50 transition-colors border border-transparent hover:border-border pt-[6px] pb-[6px] mt-[8px] mb-[8px] pl-[1px] pr-[1px] bg-[#000000] text-[#f5f2f2] text-[160px]">
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                 <p className="text-lg font-medium text-[#ffffff] bg-[#000000]">{text}</p>
               </div>
