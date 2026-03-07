@@ -139,7 +139,7 @@ export default function Home() {
 
         {/* Course Quick Overview Section */}
         <section className="py-16 px-4 from-muted/30 to-background max-w-5xl mx-auto pt-[20px] pb-[20px] text-[16px] text-center bg-[#00000000] text-[#8c0707]">
-          <h2 className="text-3xl md:text-4xl font-black mb-4">Course Quick Overview</h2>
+          <h2 className="text-3xl md:text-4xl font-black mb-4 text-[#000000] pl-[0px] pr-[0px] ml-[20px] mr-[20px]">Course Quick Overview</h2>
           <p className="text-xl mb-12 text-[#000000]">Watch a sneak peek of what you'll learn</p>
           
           <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-2xl mx-auto">
