@@ -4,8 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Clock, Gift, Smartphone, Star, TrendingUp, Video, Zap } from "lucide-react";
 
-import videoProof from "@assets/InShot_20260220_125800534_1772851577346.mp4";
 import heroImage from "@assets/2.5M-1536x864_1772851808594.png";
+import photo1 from "@assets/photo_2026-02-10_12-24-16_1772873440324.jpg";
+import photo2 from "@assets/photo_2026-02-10_11-16-49_1772873440329.avif";
+import photo3 from "@assets/photo_2026-02-10_11-16-27_1772873440330.avif";
+import photo4 from "@assets/photo_2026-02-10_11-16-08-768x1526_1772873440331.avif";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
@@ -134,20 +137,43 @@ export default function Home() {
         </section>
 
         {/* Social Proof Section */}
-        <section className="py-16 px-4 max-w-4xl mx-auto text-center">
+        <section className="py-16 px-4 max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-black mb-4">Popular AI Influencer Pages</h2>
           <p className="text-xl text-muted-foreground mb-12">Making Lakhs Every Month</p>
           
-          <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-md mx-auto aspect-[9/16] bg-black">
-            <video 
-              src={videoProof} 
-              className="w-full h-full object-cover" 
-              autoPlay 
-              loop 
-              muted 
-              playsInline
-              data-testid="video-proof"
-            />
+          <div className="flex justify-center gap-4 overflow-x-auto pb-4">
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+              <img 
+                src={photo1} 
+                alt="AI Influencer 1" 
+                className="w-40 h-64 object-cover"
+                data-testid="photo-influencer-1"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+              <img 
+                src={photo2} 
+                alt="AI Influencer 2" 
+                className="w-40 h-64 object-cover"
+                data-testid="photo-influencer-2"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+              <img 
+                src={photo3} 
+                alt="AI Influencer 3" 
+                className="w-40 h-64 object-cover"
+                data-testid="photo-influencer-3"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+              <img 
+                src={photo4} 
+                alt="AI Influencer 4" 
+                className="w-40 h-64 object-cover"
+                data-testid="photo-influencer-4"
+              />
+            </div>
           </div>
         </section>
 
