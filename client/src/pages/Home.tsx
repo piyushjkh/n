@@ -153,7 +153,7 @@ export default function Home() {
         </section>
 
         {/* Social Proof Section */}
-        <section className="py-16 px-4 max-w-6xl mx-auto text-center">
+        <section className="py-16 px-4 max-w-6xl mx-auto text-center pt-[20px] pb-[20px]">
           <h2 className="text-3xl md:text-4xl font-black mb-4">Popular AI Influencer Pages</h2>
           <p className="text-xl text-muted-foreground mb-12">Making Lakhs Every Month</p>
           
