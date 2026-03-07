@@ -271,25 +271,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section className="py-20 px-4 text-center max-w-3xl mx-auto pt-[40px] pb-[40px]">
-          <h2 className="text-3xl md:text-4xl font-black mb-8 flex items-center justify-center gap-3">
-            <span className="text-4xl">⌚</span> TIME IS RUNNING OUT
-          </h2>
-          
-          <CountdownTimer />
-          
-          <a href={checkoutUrl} className="block w-full max-w-lg mx-auto mt-10 group">
-            <Button size="lg" className="w-full text-lg h-auto py-5 rounded-xl shadow-2xl shadow-primary/30 hover:shadow-primary/50 transition-all bg-gradient-to-r from-primary to-rose-600 group-hover:scale-[1.03] border-2 border-white/20 animate-pulse">
-              <div className="flex flex-col items-center">
-                <span className="font-black uppercase tracking-wide text-2xl">PRICE INCREASING SOON!</span>
-                <span className="text-base font-bold opacity-90 mt-1 line-through opacity-70">₹3999</span>
-                <span className="text-xl font-black">ONLY ₹199</span>
-              </div>
-            </Button>
-          </a>
-        </section>
-
         {/* Happy Students Review Section */}
         <section className="py-16 px-4 max-w-5xl mx-auto pt-[40px] pb-[40px]">
           <div className="text-center mb-12">
