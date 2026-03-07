@@ -156,40 +156,40 @@ export default function Home() {
         </section>
 
         {/* Social Proof Section */}
-        <section className="py-16 px-4 max-w-6xl mx-auto text-center pt-[20px] pb-[20px]">
+        <section className="py-16 px-4 max-w-4xl mx-auto text-center pt-[20px] pb-[20px]">
           <h2 className="md:text-4xl font-black mt-[0px] mb-[0px] ml-[0px] mr-[0px] pl-[1px] pr-[1px] pt-[0px] pb-[0px] text-[30px]">Popular AI Influencer Pages</h2>
           <p className="mb-12 text-[#261818] text-[18px]">Making Lakhs Every Month💰</p>
           
-          <div className="flex justify-center gap-4 overflow-x-auto pb-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+          <div className="grid grid-cols-2 gap-6">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
                 src={photo1} 
                 alt="AI Influencer 1" 
-                className="w-40 h-64 object-cover"
+                className="w-full h-auto object-cover aspect-[3/4]"
                 data-testid="photo-influencer-1"
               />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
                 src={photo2} 
                 alt="AI Influencer 2" 
-                className="w-40 h-64 object-cover"
+                className="w-full h-auto object-cover aspect-[3/4]"
                 data-testid="photo-influencer-2"
               />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
                 src={photo3} 
                 alt="AI Influencer 3" 
-                className="w-40 h-64 object-cover"
+                className="w-full h-auto object-cover aspect-[3/4]"
                 data-testid="photo-influencer-3"
               />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white flex-shrink-0">
+            <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
                 src={photo4} 
                 alt="AI Influencer 4" 
-                className="w-40 h-64 object-cover"
+                className="w-full h-auto object-cover aspect-[3/4]"
                 data-testid="photo-influencer-4"
               />
             </div>
