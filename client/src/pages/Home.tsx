@@ -158,7 +158,7 @@ export default function Home() {
         {/* Social Proof Section */}
         <section className="py-16 px-4 max-w-4xl mx-auto text-center pt-[20px] pb-[20px]">
           <h2 className="md:text-4xl font-black mt-[0px] mb-[0px] ml-[0px] mr-[0px] pl-[1px] pr-[1px] pt-[0px] pb-[0px] text-[30px]">Popular AI Influencer Pages</h2>
-          <p className="mb-12 text-[#261818] text-[18px]">Making Lakhs Every Month💰</p>
+          <p className="text-[#261818] text-[18px] mt-[2px] mb-[2px]">Making Lakhs Every Month💰</p>
           
           <div className="grid grid-cols-2 gap-6">
             <div className="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white">
