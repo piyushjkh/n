@@ -319,6 +319,53 @@ export default function Home() {
             </a>
           </div>
         </section>
+
+        {/* Final CTA Section with Countdown */}
+        <section className="py-24 px-4 bg-gradient-to-b from-primary/5 to-primary/10 border-t border-border/50 text-center relative overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute top-0 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl opacity-40 -z-10"></div>
+            <div className="absolute bottom-0 left-10 w-80 h-80 bg-secondary/5 rounded-full blur-3xl opacity-40 -z-10"></div>
+          </div>
+          
+          <div className="max-w-2xl mx-auto relative z-10">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <Clock className="w-8 h-8 text-primary animate-spin" />
+              <h2 className="text-4xl md:text-5xl font-black text-foreground">
+                TIME IS RUNNING OUT
+              </h2>
+              <Clock className="w-8 h-8 text-primary animate-spin" />
+            </div>
+            
+            <p className="text-lg md:text-xl text-muted-foreground font-semibold mb-8">
+              Lock in your price before it increases forever
+            </p>
+            
+            <CountdownTimer />
+            
+            <a href={checkoutUrl} className="block w-full max-w-sm mx-auto mt-10 group">
+              <button className="w-full bg-gradient-to-r from-primary via-primary to-secondary text-white rounded-2xl p-8 shadow-2xl shadow-primary/40 hover:shadow-primary/60 transition-all transform hover:scale-[1.03] active:scale-[0.98] border border-primary/50 hover:border-primary group-hover:animate-pulse" data-testid="button-final-cta">
+                <div className="space-y-2">
+                  <div className="text-2xl md:text-3xl font-black uppercase tracking-wider">
+                    Price Increasing Soon!
+                  </div>
+                  <div className="flex items-center justify-center gap-3 text-lg md:text-xl font-bold">
+                    <span className="line-through opacity-60">₹3999</span>
+                    <span className="text-yellow-200 font-black">ONLY</span>
+                    <span className="text-3xl font-black text-yellow-100">₹199</span>
+                  </div>
+                  <div className="text-sm md:text-base font-semibold opacity-90 pt-2">
+                    🎁 Includes ₹10,000+ in Free Bonuses
+                  </div>
+                </div>
+              </button>
+            </a>
+            
+            <p className="mt-8 text-sm font-medium text-muted-foreground flex items-center justify-center gap-2">
+              <CheckCircle2 className="w-4 h-4 text-green-600" />
+              7-Day Money-Back Guarantee • No Questions Asked
+            </p>
+          </div>
+        </section>
       </main>
       {/* Sticky Footer with Enrollment Button - pb-20 ensures content doesn't hide under it */}
       <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t-2 border-gray-200 shadow-2xl z-40">
