@@ -336,7 +336,7 @@ export default function Home() {
               <Clock className="w-8 h-8 text-primary animate-spin" />
             </div>
             
-            <p className="text-lg md:text-xl text-muted-foreground font-semibold mb-8">
+            <p className="text-lg md:text-xl font-semibold mb-8 text-[#000000]">
               Lock in your price before it increases forever
             </p>
             
