@@ -321,7 +321,7 @@ export default function Home() {
         </section>
 
         {/* Final CTA Section with Countdown */}
-        <section className="py-24 px-4 bg-gradient-to-b from-primary/5 to-primary/10 border-t border-border/50 text-center relative overflow-hidden">
+        <section className="py-24 px-4 from-primary/5 to-primary/10 border-t border-border/50 text-center relative overflow-hidden pt-[9px] pb-[9px] bg-[#ffffff] pl-[1px] pr-[1px] text-[16px]">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-0 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl opacity-40 -z-10"></div>
             <div className="absolute bottom-0 left-10 w-80 h-80 bg-secondary/5 rounded-full blur-3xl opacity-40 -z-10"></div>
