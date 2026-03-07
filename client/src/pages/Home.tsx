@@ -4,12 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Clock, Gift, Smartphone, Star, TrendingUp, Video, Zap } from "lucide-react";
 
-// Import images
-import heroImage from "@/assets/images/ai-influencer-hero.png";
-import proof1 from "@/assets/images/dashboard-proof_1.jpg";
-import proof2 from "@/assets/images/dashboard-proof_2.jpg";
-import proof3 from "@/assets/images/dashboard-proof_3.jpg";
-import proof4 from "@/assets/images/dashboard-proof_4.jpg";
+import videoProof from "@assets/InShot_20260220_125800534_1772851577346.mp4";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
@@ -139,16 +134,20 @@ export default function Home() {
         </section>
 
         {/* Social Proof Section */}
-        <section className="py-16 px-4 max-w-5xl mx-auto text-center">
+        <section className="py-16 px-4 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-black mb-4">Popular AI Influencer Pages</h2>
           <p className="text-xl text-muted-foreground mb-12">Making Lakhs Every Month</p>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {[proof1, proof2, proof3, proof4].map((img, i) => (
-              <div key={i} className="rounded-xl overflow-hidden shadow-lg border-2 border-border/50 hover:border-primary/50 transition-colors group">
-                <img src={img} alt={`Social proof ${i+1}`} className="w-full aspect-[9/16] object-cover group-hover:scale-105 transition-transform duration-500" />
-              </div>
-            ))}
+          <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-md mx-auto aspect-[9/16] bg-black">
+            <video 
+              src={videoProof} 
+              className="w-full h-full object-cover" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline
+              data-testid="video-proof"
+            />
           </div>
         </section>
 
