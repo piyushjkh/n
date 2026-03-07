@@ -125,7 +125,7 @@ export default function Home() {
                 { text: "7-day refund guarantee", icon: CheckCircle2 },
               ].map((item, i) => (
                 <Card key={i} className="bg-card border-none shadow-sm hover:shadow-md transition-shadow">
-                  <CardContent className="p-4 flex items-center gap-4">
+                  <CardContent className="p-4 flex items-center gap-4 pt-[1px] pb-[1px] pl-[1px] pr-[1px]">
                     <div className="bg-primary/10 p-2 rounded-full text-primary shrink-0">
                       <item.icon className="w-5 h-5" />
                     </div>
