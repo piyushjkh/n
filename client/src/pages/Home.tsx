@@ -66,7 +66,7 @@ export default function Home() {
       <div className="text-primary-foreground py-3 text-center px-4 font-semibold sm:text-base sticky top-0 z-50 shadow-md text-[18px] bg-[#fa486a]">
         <span className="animate-pulse inline-block mr-2">🎉</span>
         Launch Offer – 95% OFF this Week! 🚀 
-        <a href={checkoutUrl} className="underline ml-2 font-bold hover:text-white/80 transition-colors">
+        <a href={checkoutUrl} className="underline ml-2 font-bold hover:text-white/80 transition-colors animate-pulse">
           Enroll Now For ₹199/-
         </a>
       </div>
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
 
           <a href={checkoutUrl} className="block w-full max-w-md mx-auto group">
-            <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02] border border-primary-foreground/10" data-testid="button-enroll-hero">
+            <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02] border border-primary-foreground/10 animate-pulse" data-testid="button-enroll-hero">
               <div className="flex flex-col items-center">
                 <span className="font-black uppercase tracking-wide text-xl">Enroll Now at Just ₹199/-</span>
                 <span className="font-medium opacity-90 text-[14px]">Tomorrow Price ₹399/- with Bonuses</span>
@@ -207,7 +207,7 @@ export default function Home() {
             <CountdownTimer />
             
             <a href={checkoutUrl} className="block w-full max-w-md mx-auto mt-8 group">
-              <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 bg-primary hover:bg-primary/90 text-white font-black uppercase tracking-wide group-hover:scale-[1.02] transition-all">
+              <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 bg-primary hover:bg-primary/90 text-white font-black uppercase tracking-wide group-hover:scale-[1.02] transition-all animate-pulse">
                 Buy Now at Just ₹199/-
               </Button>
             </a>
@@ -313,7 +313,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href={checkoutUrl} className="block w-full max-w-md mx-auto group">
-              <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02]" data-testid="button-reviews-cta">
+              <Button size="lg" className="w-full text-lg h-auto py-4 rounded-xl shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all bg-gradient-to-b from-primary to-primary/90 group-hover:scale-[1.02] animate-pulse" data-testid="button-reviews-cta">
                 <span className="font-black uppercase tracking-wide text-xl">Join These Students Now</span>
               </Button>
             </a>
@@ -343,7 +343,7 @@ export default function Home() {
             <CountdownTimer />
             
             <a href={checkoutUrl} className="block w-full max-w-sm mx-auto mt-10 group">
-              <button className="w-full bg-gradient-to-r from-primary via-primary to-secondary text-white rounded-2xl p-8 shadow-2xl shadow-primary/40 hover:shadow-primary/60 transition-all transform hover:scale-[1.03] active:scale-[0.98] border border-primary/50 hover:border-primary group-hover:animate-pulse pt-[0px] pb-[0px] pl-[0px] pr-[0px]" data-testid="button-final-cta">
+              <button className="w-full bg-gradient-to-r from-primary via-primary to-secondary text-white rounded-2xl p-8 shadow-2xl shadow-primary/40 hover:shadow-primary/60 transition-all transform hover:scale-[1.03] active:scale-[0.98] border border-primary/50 hover:border-primary animate-pulse pt-[0px] pb-[0px] pl-[0px] pr-[0px]" data-testid="button-final-cta">
                 <div className="space-y-2">
                   <div className="text-2xl md:text-3xl font-black uppercase tracking-wider">
                     Price Increasing Soon!
@@ -374,7 +374,7 @@ export default function Home() {
             <p className="text-sm sm:text-base font-semibold text-gray-800"> </p>
           </div>
           <a href={checkoutUrl} className="w-full sm:w-auto">
-            <Button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-black text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 uppercase tracking-wide" data-testid="button-sticky-enroll">
+            <Button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-black text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 uppercase tracking-wide animate-pulse" data-testid="button-sticky-enroll">
               <div className="flex items-center gap-2">
                 <span className="line-through opacity-70 text-sm">₹399</span>
                 <span>Enroll Now ₹199/-</span>
@@ -388,7 +388,7 @@ export default function Home() {
         href="https://api.whatsapp.com/send?phone=918950370314" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50 flex items-center justify-center"
+        className="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50 flex items-center justify-center animate-bounce"
         aria-label="Chat on WhatsApp"
       >
         <svg viewBox="0 0 24 24" className="w-8 h-8 fill-current" xmlns="http://www.w3.org/2000/svg">
