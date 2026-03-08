@@ -197,7 +197,7 @@ export default function Home() {
         </section>
 
         {/* Mid CTA with Timer */}
-        <section className="py-16 px-4 text-center relative overflow-hidden bg-[#ffffff] text-[#ffffff]">
+        <section className="py-16 px-4 text-center relative overflow-hidden bg-[#ffffff] text-[#ffffff] pt-[12px] pb-[12px]">
           <div className="max-w-3xl mx-auto relative z-10">
             <h2 className="text-3xl md:text-5xl font-black mb-4 bg-clip-text bg-gradient-to-r from-white to-white/70 text-[#000000]">
               Hurry Up! Don't Miss The Opportunity
