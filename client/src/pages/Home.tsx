@@ -262,7 +262,7 @@ export default function Home() {
                 { image: capcutImage, alt: "Capcut Pro" }
               ].map((bonus, i) => (
                 <Card key={i} className="overflow-hidden border-2 border-border hover:border-primary/30 transition-colors group h-full">
-                  <div className="flex items-center justify-center p-6 bg-muted/50 group-hover:opacity-90 transition-opacity h-48">
+                  <div className="flex items-center justify-center p-6 bg-muted/50 group-hover:opacity-90 transition-opacity h-48 pt-[10px] pb-[10px] pl-[10px] pr-[10px] mt-[0px] mb-[0px] ml-[0px] mr-[0px]">
                     <img 
                       src={bonus.image} 
                       alt={bonus.alt}
