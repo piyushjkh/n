@@ -13,6 +13,10 @@ import quickOverviewVideo from "@assets/Quick-overview_1772873650691.mp4";
 import reviewImage1 from "@assets/photo_2026-02-10_13-08-01_1772889663305.jpg";
 import reviewImage2 from "@assets/photo_2026-02-10_13-00-35_1772889663308.jpg";
 import reviewImage3 from "@assets/Use_the_uploaded_2k_202602101337-scaled_1772889663308.jpeg";
+import canvaProImage from "@assets/image-2-e1678873444386-1024x540-1_1772945964730.png";
+import filmoraImage from "@assets/wondershare-filmora-review-great-beginners-very-easy-use-featu_1772945964877.jpg";
+import kinemasterImage from "@assets/Add-a-subheading-1_1772945964944.png";
+import capcutImage from "@assets/Add-a-subheading-2_1772945965012.png";
 
 function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState({
@@ -252,14 +256,18 @@ export default function Home() {
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { title: "Canva Pro (Lifetime)", color: "bg-blue-500" },
-                { title: "Wondershare Filmora (LT)", color: "bg-teal-500" },
-                { title: "Kinemaster Pro (Lifetime)", color: "bg-orange-500" },
-                { title: "Capcut Pro (LT)", color: "bg-black" }
+                { image: canvaProImage, alt: "Canva Pro" },
+                { image: filmoraImage, alt: "Wondershare Filmora" },
+                { image: kinemasterImage, alt: "Kinemaster Pro" },
+                { image: capcutImage, alt: "Capcut Pro" }
               ].map((bonus, i) => (
-                <Card key={i} className="overflow-hidden border-2 border-border hover:border-primary/30 transition-colors group">
-                  <div className={`h-32 ${bonus.color} flex items-center justify-center text-white p-6 text-center group-hover:opacity-90 transition-opacity`}>
-                    <h3 className="font-black text-xl leading-tight">{bonus.title}</h3>
+                <Card key={i} className="overflow-hidden border-2 border-border hover:border-primary/30 transition-colors group h-full">
+                  <div className="flex items-center justify-center p-6 bg-muted/50 group-hover:opacity-90 transition-opacity h-48">
+                    <img 
+                      src={bonus.image} 
+                      alt={bonus.alt}
+                      className="max-h-full max-w-full object-contain"
+                    />
                   </div>
                   <CardContent className="p-4 text-center bg-card">
                     <p className="font-bold text-primary">FREE TODAY</p>
