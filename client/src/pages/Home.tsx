@@ -62,7 +62,7 @@ function CountdownTimer() {
 }
 
 export default function Home() {
-  const checkoutUrl = "https://superprofile.bio/vp/6f2zWlVz";
+  const checkoutUrl = "https://superprofile.bio/vp/master-ai-influencer-course-107";
 
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-primary/20">
